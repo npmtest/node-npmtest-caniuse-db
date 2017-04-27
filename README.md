@@ -1,6 +1,6 @@
 # npmtest-caniuse-db
 
-#### basic test coverage for  caniuse-db (v1.0.30000657)  [![npm package](https://img.shields.io/npm/v/npmtest-caniuse-db.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-caniuse-db) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-caniuse-db.svg)](https://travis-ci.org/npmtest/node-npmtest-caniuse-db)
+#### basic test coverage for  [caniuse-db (v1.0.30000662)](https://github.com/Fyrd/caniuse#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-caniuse-db.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-caniuse-db) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-caniuse-db.svg)](https://travis-ci.org/npmtest/node-npmtest-caniuse-db)
 
 #### Raw browser/feature support data from caniuse.com
 
@@ -35,9 +35,22 @@
 ```json
 
 {
-    "name": "caniuse-db",
-    "version": "1.0.30000657",
+    "author": {
+        "name": "Alexis Deveria"
+    },
+    "bugs": {
+        "url": "https://github.com/Fyrd/caniuse/issues"
+    },
+    "dependencies": {},
     "description": "Raw browser/feature support data from caniuse.com",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "616b17a525b52fec14611f88af3d5a9b5438c050",
+        "tarball": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000662.tgz"
+    },
+    "gitHead": "f46c7709149a716258291e460325d0258e6ab780",
+    "homepage": "https://github.com/Fyrd/caniuse#readme",
     "keywords": [
         "support",
         "css",
@@ -45,12 +58,20 @@
         "html5",
         "svg"
     ],
-    "author": "Alexis Deveria <adeveria@gmail.com>",
     "license": "CC-BY-4.0",
+    "maintainers": [
+        {
+            "name": "fyrd"
+        }
+    ],
+    "name": "caniuse-db",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/Fyrd/caniuse.git"
+        "url": "git+https://github.com/Fyrd/caniuse.git"
     },
+    "scripts": {},
+    "version": "1.0.30000662",
     "bin": {}
 }
 ```
